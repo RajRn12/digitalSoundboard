@@ -1,7 +1,6 @@
 {
   "cli": {
     "version": ">= 7.6.2",
-    "promptToConfigurePushNotifications": false,
     "appVersionSource": "remote"
   },
   "build": {
@@ -11,6 +10,7 @@
     },
     "preview": {
       "distribution": "internal",
+      "autoIncrement": true,
       "android": {
         "buildType": "apk"
       }
@@ -18,8 +18,5 @@
     "production": {
       "autoIncrement": true
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
