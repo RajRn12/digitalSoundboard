@@ -12,8 +12,12 @@ import guide from './images/question.jpg';
 import styles from './styles/page-styles';
 import { StatusBar } from 'expo-status-bar';
 import * as SQLite from 'expo-sqlite';
+import * as SplashScreen from 'expo-splash-screen';
 
 export default function App() {
+    SplashScreen.preventAutoHideAsync();
+    setTimeout(SplashScreen.hideAsync, 2000);
+
     const [db, setDb] = useState();
     // dim to brighter
     const [dimColors, setDimColors] = useState(['rgba(255, 0, 0, 0.3)', 'rgba(10,255,0,0.3)', 'rgba(0,0,255,0.3)', 'rgba(0, 255, 242, 0.3)', 'rgba(255,255,0,0.3)'])
