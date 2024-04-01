@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Digital Sounboard",
+    "name": "Digital Soundboard",
     "slug": "Digital-Soundboard",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.rajrai.digitalsoundboard"
+      "package": "com.rajrai.digitalsoundboard",
+      "versionCode": 1000
     },
     "web": {
       "favicon": "./assets/favicon.png"
